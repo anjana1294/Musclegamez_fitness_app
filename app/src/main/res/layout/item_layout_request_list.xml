@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:text="Today 24 April 2020"
+        android:textColor="@color/colorGrey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_task"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:id="@+id/tv_request_title"
+                android:text="Pushup : 4set"
+                android:textColor="@color/colorSearchBar"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_req_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/running"></ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_req_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/time_white"
+                android:drawablePadding="2dp"
+                android:nextFocusDown="@id/tv_end_time"
+                android:gravity="center_vertical"
+                android:text="13:00 - 14:00"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorSearchBar"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_req_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/hand_wave"
+                android:drawablePadding="6dp"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:text="Request from David"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorSearchBar"
+                android:textSize="14sp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+           >
+
+
+            <Button
+                android:id="@+id/btn_decline"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_red"
+                android:drawableLeft="@drawable/reject_icon"
+                android:padding="8dp"
+                android:text="@string/decline"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                ></Button>
+
+            <Button
+                android:id="@+id/btn_accept"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_green"
+                android:drawableLeft="@drawable/accept"
+                android:padding="8dp"
+                android:textAllCaps="false"
+                android:text="@string/accept"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                ></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:overScrollMode="always"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/otp_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_signup"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/please_enter_the_otp"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/ed_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text=""
+                android:maxLength="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/ed_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text=""
+                android:maxLength="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/ed_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:maxLength="1"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/ed_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:maxLength="1"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/ed_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text=""
+                android:maxLength="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+            <EditText
+                android:id="@+id/ed_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/otp_box"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text=""
+                android:maxLength="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"></EditText>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_otp_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_shape_red"
+            android:text="@string/submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"></Button>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            tools:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</ScrollView>

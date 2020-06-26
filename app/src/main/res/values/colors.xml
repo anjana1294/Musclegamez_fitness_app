@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A2A2A</color>
+    <color name="colorPrimaryDark">#2A2A2A</color>
+    <color name="colorAccent">#fff</color>
+    <color name="colorRed">#D51717</color>
+    <color name="colorGreen">#58CC5D </color>
+    <color name="colorBlack">#2A2A2A</color>
+    <color name="colorDarkBlack">#000</color>
+    <color name="colorSearchBar">#C2C3C4</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorTabBlack">#292929</color>
+    <color name="colorReceive">#534F4F</color>
+
+    <color name="colorToolbar">#2A2A2A</color>
+    <color name="colorStatusBar">#2A2A2A</color>
+    <color name="colorGrey">#979797</color>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="4dp"
+        android:maxLines="1"
+        android:text="Today 24 April 2020"
+        android:textColor="@color/colorGrey"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_task"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:buttonTint="@color/colorRed"></androidx.appcompat.widget.AppCompatCheckBox>
+
+            <TextView
+                android:id="@+id/tv_exercise_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/checkbox"
+                android:layout_alignParentLeft="@id/checkbox"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="45dp"
+                android:layout_toRightOf="@id/checkbox"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Pushup : 4set"
+                android:textColor="@color/colorSearchBar"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/running"></ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/time_white"
+                android:drawablePadding="2dp"
+                android:gravity="center_vertical"
+                android:nextFocusDown="@id/tv_end_time"
+                android:text="13:00-14:00"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorSearchBar"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/hand_wave"
+                android:drawablePadding="2dp"
+                android:maxLines="1"
+                android:text="Request from David"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorSearchBar"
+                android:textSize="14sp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+

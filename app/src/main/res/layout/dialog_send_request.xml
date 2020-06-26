@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColorHint="@color/colorSearchBar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_chalenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorRed"
+            android:hint="Title"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dashed_line"
+        android:padding="4dp"
+        android:textColorHint="@color/colorSearchBar">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_challenge_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:focusable="false"
+            android:gravity="start|center_vertical"
+            android:hint="Choose the Exercise Type"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:nextFocusDown="@id/et_calender"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:theme="@style/MuscleTheme"></com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/et_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/dashed_line"
+        android:drawableRight="@drawable/calendar"
+        android:nextFocusDown="@id/et_start_time"
+        android:padding="4dp"
+        android:textSize="16sp"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:hint="@string/start_time"
+            android:textColorHint="@color/colorSearchBar"
+            android:background="@drawable/dashed_line"
+            android:drawableRight="@drawable/time_white"
+            android:nextFocusDown="@id/et_end_time"
+            android:padding="4dp"
+            android:textSize="16sp"></EditText>
+
+        <EditText
+            android:id="@+id/et_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:hint="@string/end_time"
+            android:textColorHint="@color/colorSearchBar"
+            android:background="@drawable/dashed_line"
+            android:drawableRight="@drawable/time_white"
+            android:padding="4dp"
+            android:textSize="16sp"></EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_send_request"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_red"
+        android:drawableRight="@drawable/send_white"
+        android:padding="8dp"
+        android:text="@string/send_request"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
+

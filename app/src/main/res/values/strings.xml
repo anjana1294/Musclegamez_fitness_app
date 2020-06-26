@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Musclegamez fitness app</string>
+
+    <!--    Util-->
+    <string name="processing_msg">Please wait..</string>
+
+    <!--    Login-->
+    <string name="login_with_your_credential">LOGIN WITH YOUR \n CREDENTIALS</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="donot_have_any_account">Don\'t have any account ?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email_required">Email Required!</string>
+    <string name="password_required">Password Required!</string>
+
+    <!--    otp-->
+    <string name="please_enter_the_otp">PLEASE ENTER THE OTP \n TO PROCEED</string>
+    <string name="invalid_otp">Invalid OTP!</string>
+    <string name="submit">SUBMIT</string>
+
+
+    <!--    Signup-->
+    <string name="signup_to_get_started">SIGN UP TO GET STARTED</string>
+    <string name="otp_successfully_sent">OTP successfully sent to email id and phone number</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="phone_required">Phone number Required!</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--    Home-->
+    <string name="title_home">HOME</string>
+    <string name="title_task">TASKS</string>
+    <string name="title_request">REQUESTS</string>
+    <string name="title_setting">SETTINGS</string>
+
+    <!--    Home popUp-->
+    <string name="send_request">SEND REQUEST</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="reminder">Reminder !</string>
+    <string name="search">Search</string>
+
+    <!--  Request Screen-->
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <!--  Show Sets Screen-->
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+
+    <!--  Show Sets Screen-->
+    <string name="username">USERNAME</string>
+    <string name="chnage_password">CHANGE PASSWORD</string>
+    <string name="change_number">CHANGE NUMBER</string>
+
+    <!--  Settings Screen-->
+    <string name="about_us">About Us</string>
+    <string name="my_profile">My Profile</string>
+    <string name="chat_sipport">Chat Support</string>
+    <string name="terms_condition">Terms &amp; Condition</string>
+    <string name="leave_a_feedback">Leave a Feedback</string>
+    <string name="please_write_feedback">Please write feedback here..</string>
+    <string name="type_msg_here">Type your message here..</string>
+    <string name="enter_your_query_desc">Enter your query description</string>
+    <string name="query_title">Query Title</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="email">EMAIL</string>
+    <string name="address">ADDRESS</string>
+    <string name="workout_hrs">Workout Hours</string>
+    <string name="calories_burned">Calories burned</string>
+    <string name="required_image">Please select image</string>
+    <string name="name_required">Please enter name</string>
+    <string name="address_required">Please enter address </string>
+    <string name="desc_required">Please enter feedback </string>
+    <string name="edit">EDIT
+    </string>
+
+
+    <!--    API KEY FOR TEST-->
+    <!--    <string name="google_maps_key">AIzaSyAuj0rU6naaI2xPRwbFYr3_ZP_fkbpVjy0</string>-->
+
+
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        \nAenean commodo ligula eget dolor. Aenean massa.\n Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus.\n Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. \n
+       d ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. \n\nSed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</string>
+</resources>
